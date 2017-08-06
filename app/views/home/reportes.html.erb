@@ -1,0 +1,81 @@
+<!--
+<div class="col-md-12">
+<% @like_ma.url %>
+<img src="<%= @like_ma.url %>" alt="..." class="img-rounded" width="80" height="80">
+<br>
+<% @like_me.url %>
+<img src="<%= @like_me.url %>" alt="..." class="img-rounded" width="80" height="80">
+-->
+
+
+<% like_contador_ma = Like.where(url: @like_ma.url).count %>
+<br>
+<% like_contador_me = Like.where(url: @like_me.url).count %>
+
+
+
+          <!--
+          <div class="row placeholders">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 placeholder">
+              <center><img src="<%= @like_ma.url %>" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+              <h4>Mas elegida</h4>
+              <span class="text-muted">Tiene: <%= like_contador_ma %> votos</span>
+              </center>
+            </div>
+          
+            <div class="col-md-5 placeholder">
+              <center><img src="<%= @like_me.url %>" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+              <h4>Menos elegida</h4>
+              <span class="text-muted">Tiene: <%= like_contador_me %> votos</span>
+              </center>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+          -->
+
+          <!--<h2 class="sub-header">Section title</h2>-->
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Sitio</th>
+                  <th>Url</th>
+                  <th>Palabra</th>
+                  <th>Usuario</th>
+                </tr>
+              </thead>
+              <tbody>
+               
+                <% @likes.each do |like|%>
+                <!--
+                <tr>
+                  <td><% like.id %></td>
+                  <td><% like.sitio %></td>
+                  <td>
+                  	<img src="<%= like.url %>" alt="..." class="img-rounded" width="80" height="80">
+                  </td>
+                  <td><% link_to like.palabra, reportepalabra_path(like.palabra) %></td>
+                  <td><% like.user.username %></td>
+                </tr>
+                -->
+                <% end %>
+
+                <tr><center><td><h1><center>Firebase</center></h1></td></center></tr> 
+                <% @likes_f.each do |like|%>
+                <tr>
+                  <td><%= like[0] %></td>
+                  <td><%= like[1]['sitio'] %></td>
+                  <td>
+                    <img src="<%= like[1]['url'] %>" alt="..." class="img-rounded" width="80" height="80">
+                  </td>
+                  <td><%= like[1]['palabra'] %></td>
+                  <td><%= User.find(like[1]['user_id']).username %></td>
+                </tr>
+                <% end %>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>

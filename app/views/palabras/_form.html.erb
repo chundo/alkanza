@@ -1,0 +1,22 @@
+<%= form_with(model: palabra, local: true) do |form| %>
+  <% if palabra.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(palabra.errors.count, "error") %> prohibited this palabra from being saved:</h2>
+
+      <ul>
+      <% palabra.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nombre %>
+    <%= form.text_field :nombre, id: :palabra_nombre %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

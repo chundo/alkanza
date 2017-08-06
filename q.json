@@ -1,0 +1,223 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}\u0026num={count?}\u0026start={startIndex?}\u0026lr={language?}\u0026safe={safe?}\u0026cx={cx?}\u0026sort={sort?}\u0026filter={filter?}\u0026gl={gl?}\u0026cr={cr?}\u0026googlehost={googleHost?}\u0026c2coff={disableCnTwTranslation?}\u0026hq={hq?}\u0026hl={hl?}\u0026siteSearch={siteSearch?}\u0026siteSearchFilter={siteSearchFilter?}\u0026exactTerms={exactTerms?}\u0026excludeTerms={excludeTerms?}\u0026linkSite={linkSite?}\u0026orTerms={orTerms?}\u0026relatedSite={relatedSite?}\u0026dateRestrict={dateRestrict?}\u0026lowRange={lowRange?}\u0026highRange={highRange?}\u0026searchType={searchType}\u0026fileType={fileType?}\u0026rights={rights?}\u0026imgSize={imgSize?}\u0026imgType={imgType?}\u0026imgColorType={imgColorType?}\u0026imgDominantColor={imgDominantColor?}\u0026alt=json"
+    },
+    "queries": {
+        "request": [{
+            "title": "Google Custom Search - loco",
+            "totalResults": "274000000",
+            "searchTerms": "loco",
+            "count": 10,
+            "startIndex": 1,
+            "inputEncoding": "utf8",
+            "outputEncoding": "utf8",
+            "safe": "off",
+            "cx": "007331231350547501427:xk6qclo-fig",
+            "searchType": "image"
+        }],
+        "nextPage": [{
+            "title": "Google Custom Search - loco",
+            "totalResults": "274000000",
+            "searchTerms": "loco",
+            "count": 10,
+            "startIndex": 11,
+            "inputEncoding": "utf8",
+            "outputEncoding": "utf8",
+            "safe": "off",
+            "cx": "007331231350547501427:xk6qclo-fig",
+            "searchType": "image"
+        }]
+    },
+    "context": {
+        "title": "Alkanza"
+    },
+    "searchInformation": {
+        "searchTime": 0.287106,
+        "formattedSearchTime": "0,29",
+        "totalResults": "274000000",
+        "formattedTotalResults": "274.000.000"
+    },
+    "items": [{
+        "kind": "customsearch#result",
+        "title": "Viralízalo / ¿Qué tan loco estás? Este test te dará tu nivel de ...",
+        "htmlTitle": "Viralízalo / ¿Qué tan \u003cb\u003eloco\u003c/b\u003e estás? Este test te dará tu nivel de ...",
+        "link": "http://statics.viralizalo.com/virs/2016/01/VIR_99225_8407_que_tan_loco_estas.jpg?cb=98918",
+        "displayLink": "www.viralizalo.com",
+        "snippet": "Viralízalo / ¿Qué tan loco estás? Este test te dará tu nivel de ...",
+        "htmlSnippet": "Viralízalo / ¿Qué tan \u003cb\u003eloco\u003c/b\u003e estás? Este test te dará tu nivel de ...",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://www.viralizalo.com/estilodevida/8407-que-tan-loco-estas",
+            "height": 323,
+            "width": 600,
+            "byteSize": 25592,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CWp34hZXzOUMWBKYapL-j2dW2osltr1t8mkm8XYTelZixg9E3S4GbNKu",
+            "thumbnailHeight": 73,
+            "thumbnailWidth": 135
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "SUP, Surf \u0026 Kite Boards from UK Brand Loco",
+        "htmlTitle": "SUP, Surf \u0026amp; Kite Boards from UK Brand \u003cb\u003eLoco\u003c/b\u003e",
+        "link": "http://locosurfing.com/wp-content/uploads/2014/06/locosurfing-logo.png",
+        "displayLink": "locosurfing.com",
+        "snippet": "SUP, Surf \u0026 Kite Boards from UK Brand Loco",
+        "htmlSnippet": "SUP, Surf \u0026amp; Kite Boards from UK Brand \u003cb\u003eLoco\u003c/b\u003e",
+        "mime": "image/png",
+        "image": {
+            "contextLink": "http://locosurfing.com/",
+            "height": 309,
+            "width": 300,
+            "byteSize": 14166,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqqDnjmU1xc7ZBPjtW9Pfq5p6eIq-R1wXMPTwOnMn7NglBpp2sDRHCFs",
+            "thumbnailHeight": 117,
+            "thumbnailWidth": 114
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Bien loco pero bien cuerdo | Mundo Poesía | Foros de poemas",
+        "htmlTitle": "Bien \u003cb\u003eloco\u003c/b\u003e pero bien cuerdo | Mundo Poesía | Foros de poemas",
+        "link": "http://i60.tinypic.com/29des0p.jpg",
+        "displayLink": "www.mundopoesia.com",
+        "snippet": "Bien loco pero bien cuerdo | Mundo Poesía | Foros de poemas",
+        "htmlSnippet": "Bien \u003cb\u003eloco\u003c/b\u003e pero bien cuerdo | Mundo Poesía | Foros de poemas",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://www.mundopoesia.com/foros/temas/bien-loco-pero-bien-cuerdo.567653/",
+            "height": 300,
+            "width": 300,
+            "byteSize": 89141,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1rx0iKM0SWPZk-lI88cbfOVAzaUQNqqZ87_LP3iieGjouSmFXIIZWw",
+            "thumbnailHeight": 116,
+            "thumbnailWidth": 116
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Nicholson y sus 5 mejores papeles como loco",
+        "htmlTitle": "Nicholson y sus 5 mejores papeles como \u003cb\u003eloco\u003c/b\u003e",
+        "link": "http://imag.cinebit.com/articulos/principal/jack-nicholson-y-sus-5-mejores-papeles-como-loco.jpg",
+        "displayLink": "www.cinebit.com",
+        "snippet": "Nicholson y sus 5 mejores papeles como loco",
+        "htmlSnippet": "Nicholson y sus 5 mejores papeles como \u003cb\u003eloco\u003c/b\u003e",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://www.cinebit.com/articulo/jack-nicholson-y-sus-5-mejores-papeles-como-loco",
+            "height": 260,
+            "width": 600,
+            "byteSize": 96875,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEri737Kzc7W-SO-wL9IbN7Gq9IdgqystKaESyS7FlXwoW9jkqRb6WqU",
+            "thumbnailHeight": 59,
+            "thumbnailWidth": 135
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Loco | Eat Loco, Drink Loco",
+        "htmlTitle": "\u003cb\u003eLoco\u003c/b\u003e | Eat \u003cb\u003eLoco\u003c/b\u003e, Drink \u003cb\u003eLoco\u003c/b\u003e",
+        "link": "http://the-loco.co.uk/wp-content/uploads/2015/01/logo-e1420805296413.jpg",
+        "displayLink": "the-loco.co.uk",
+        "snippet": "Loco | Eat Loco, Drink Loco",
+        "htmlSnippet": "\u003cb\u003eLoco\u003c/b\u003e | Eat \u003cb\u003eLoco\u003c/b\u003e, Drink \u003cb\u003eLoco\u003c/b\u003e",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://the-loco.co.uk/",
+            "height": 268,
+            "width": 438,
+            "byteSize": 15524,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHdJ8-HyISum8lP2fVXz3_aEjD726G2BsShLkcQGF7J4Gm3kN4YIAye0",
+            "thumbnailHeight": 78,
+            "thumbnailWidth": 127
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Desmotivaciones Locos",
+        "htmlTitle": "Desmotivaciones \u003cb\u003eLocos\u003c/b\u003e",
+        "link": "http://www.desmotivar.com/img/desmotivaciones/186480_mi-psiquiatra-me-dijo-que-estaba-loco-pedi-una-segunda-opinion.jpg",
+        "displayLink": "www.desmotivar.com",
+        "snippet": "Desmotivaciones Locos",
+        "htmlSnippet": "Desmotivaciones \u003cb\u003eLocos\u003c/b\u003e",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://www.desmotivar.com/carteles/locos/",
+            "height": 706,
+            "width": 710,
+            "byteSize": 60561,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwR2cWbT2Iu580As2rhl9fUmAJfxxd8u5y0Blopjnl4pl-FVdfgMkP0tU",
+            "thumbnailHeight": 139,
+            "thumbnailWidth": 140
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Home – Loco Mexican",
+        "htmlTitle": "Home – \u003cb\u003eLoco\u003c/b\u003e Mexican",
+        "link": "http://www.locomexican.com/wp-content/uploads/2016/06/LOCO-Logo-transparent1-450x450.png",
+        "displayLink": "www.locomexican.com",
+        "snippet": "Home – Loco Mexican",
+        "htmlSnippet": "Home – \u003cb\u003eLoco\u003c/b\u003e Mexican",
+        "mime": "image/png",
+        "image": {
+            "contextLink": "http://www.locomexican.com/",
+            "height": 450,
+            "width": 450,
+            "byteSize": 125690,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxg65ANsIOK5RvGPcWxZMrAgw1VjvNY6ISwC0URT7L8hAcbB6YFUzX4A",
+            "thumbnailHeight": 127,
+            "thumbnailWidth": 127
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Cómo saber si estás loco - Taringa!",
+        "htmlTitle": "Cómo saber si estás \u003cb\u003eloco\u003c/b\u003e - Taringa!",
+        "link": "https://ugc.kn3.net/i/origin/http://i5.photobucket.com/albums/y180/erranteblog/pirado.jpg",
+        "displayLink": "www.taringa.net",
+        "snippet": "Cómo saber si estás loco - Taringa!",
+        "htmlSnippet": "Cómo saber si estás \u003cb\u003eloco\u003c/b\u003e - Taringa!",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "https://www.taringa.net/posts/humor/2884529/Como-saber-si-estas-loco.html",
+            "height": 352,
+            "width": 350,
+            "byteSize": 15060,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhbTsnRC1mXCM1P2PEc1jFgeNdPTrjV-6cgN_kwhOeyNM_k-NMJjIWAZk",
+            "thumbnailHeight": 120,
+            "thumbnailWidth": 119
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "Loco Mapache | El Primer Mapache que sube Gameplays! - YouTube",
+        "htmlTitle": "\u003cb\u003eLoco\u003c/b\u003e Mapache | El Primer Mapache que sube Gameplays! - YouTube",
+        "link": "https://yt3.ggpht.com/-ln13Q-XFMxw/AAAAAAAAAAI/AAAAAAAAAAA/Ujo0D-Jcwx4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "displayLink": "www.youtube.com",
+        "snippet": "Loco Mapache | El Primer Mapache que sube Gameplays! - YouTube",
+        "htmlSnippet": "\u003cb\u003eLoco\u003c/b\u003e Mapache | El Primer Mapache que sube Gameplays! - YouTube",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "https://www.youtube.com/user/LocoMapache",
+            "height": 900,
+            "width": 900,
+            "byteSize": 107449,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MEGK6--1U-xAd-BEDYszXNCk3tGuf4Gp3SUQaPIgr2oPc6Jyh4eEYngHw",
+            "thumbnailHeight": 146,
+            "thumbnailWidth": 146
+        }
+    }, {
+        "kind": "customsearch#result",
+        "title": "zafando con estilo: Estar loco",
+        "htmlTitle": "zafando con estilo: Estar \u003cb\u003eloco\u003c/b\u003e",
+        "link": "http://www.94diez.com/media/galerias/pop_al-municipio-el-tiempo-lo-tiene-loco_7163_020150917084056.jpg",
+        "displayLink": "zafandoconestilo.blogspot.com",
+        "snippet": "zafando con estilo: Estar loco",
+        "htmlSnippet": "zafando con estilo: Estar \u003cb\u003eloco\u003c/b\u003e",
+        "mime": "image/jpeg",
+        "image": {
+            "contextLink": "http://zafandoconestilo.blogspot.com/2016/02/estar-loco.html",
+            "height": 323,
+            "width": 600,
+            "byteSize": 42977,
+            "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQH4tPeVHgNlmsCNWZ18ITk2IzGTno3gK9qU2AqCH5lg_SRHXHczhMNW2z",
+            "thumbnailHeight": 73,
+            "thumbnailWidth": 135
+        }
+    }]
+}

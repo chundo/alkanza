@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Imagens</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Url</th>
+      <th>Sitio</th>
+      <th>Palabra</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @imagens.each do |imagen| %>
+      <tr>
+        <td><%= imagen.url %></td>
+        <td><%= imagen.sitio %></td>
+        <td><%= imagen.palabra %></td>
+        <td><%= link_to 'Show', imagen %></td>
+        <td><%= link_to 'Edit', edit_imagen_path(imagen) %></td>
+        <td><%= link_to 'Destroy', imagen, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Imagen', new_imagen_path %>

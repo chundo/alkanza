@@ -1,0 +1,25 @@
+<center><h1>Palabra: <%= @base_uri['queries']['request'][0]['searchTerms'] %></h1></center>
+
+<% @gs = @base_uri['items'].sample(2) %>  
+ 
+ <div class="row">
+  <center>
+  <div class="col-md-2"></div>
+  <% @gs.each do |item| %>
+  <div class="col-md-4">
+    <%=  link_to elegir_path(eleccion: item['link'], sitio: item['displayLink'], palabra: @base_uri['queries']['request'][0]['searchTerms']), method: :post do %>
+        <img src="<%= item['link'] %>" alt="..." class="img-rounded" width="328" height="328">      
+    <% end %>   
+    </div>
+  <% end %>
+  <div class="col-md-2"></div>
+  </center>
+ </div>
+
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-4"><center><h1>Me gusta A</h1></center></div>
+  <div class="col-md-4"><center><h1>Me gusta B</h1></center></div>
+  <div class="col-md-2"></div>
+</div>
+

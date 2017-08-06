@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @imagen.url %>
+</p>
+
+<p>
+  <strong>Sitio:</strong>
+  <%= @imagen.sitio %>
+</p>
+
+<p>
+  <strong>Palabra:</strong>
+  <%= @imagen.palabra %>
+</p>
+
+<%= link_to 'Edit', edit_imagen_path(@imagen) %> |
+<%= link_to 'Back', imagens_path %>

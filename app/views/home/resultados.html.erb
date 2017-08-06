@@ -1,0 +1,49 @@
+<center><h1>Resultados Generales</h1></center>
+
+<center><h3><%= Like.all.count %> imagenes con like</h3></center>
+<center><h3><%= @likes_f.count %> imagenes con like Firebase</h3></center>
+
+<% if flash[:result] %>
+	<center><div class="alert alert-<%= flash[:color] %>" role="alert"><%= flash[:result] %></div></center>
+<% end %>
+
+<br>
+<%= form_tag(resultados_path) do %>
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+    <div class="input-group" >
+      <!--<input type="text" class="form-control" placeholder="Search for...">-->
+      <%= text_field_tag :username, nil, :class => 'form-control', :placeholder => "username" %>
+      <span class="input-group-btn">
+        <!--<button class="btn btn-default" type="button">Go!</button>-->
+        <%= submit_tag('Resultados', :class => "btn btn-default") %>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-4"></div>
+<% end %>
+
+
+<br>
+<hr>
+<center>
+<% @likes.each do |like|%>
+	<%= like.url %><br>
+	cantidad de voto  o usuarios que les gusto <br>
+	usuarios que voraron por esta imagen<br>
+	corresponder al % por ciento de los votos<br>
+	<hr>
+<% end %>
+</center>
+
+<center><h1>Firebase</h1></center>
+
+<center>
+<% @likes_f.each do |like|%>
+  <%= like[1]['url'] %><br>
+  cantidad de voto  o usuarios que les gusto <br>
+  usuarios que voraron por esta imagen<br>
+  corresponder al % por ciento de los votos<br>
+  <hr>
+<% end %>
+</center>
